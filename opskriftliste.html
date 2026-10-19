@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cook Like Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;500&family=Kaushan+Script&family=Merriweather:wght@400;700&family=Playfair+Display:ital,wght@1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="opskriftliste.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo.png" alt=" Cooklikeme">
+            </a>
+        </div>
+
+        <button class="burger" id="burger" aria-label="Åbn menu" aria-expanded="false" aria-controls="nav">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav" id="nav">
+            <a href="index.html">Home</a>
+            <a href="opskriftliste.html">All recipes</a>
+            <a href="opskrift.html">Recipe</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="page-title">
+            <span class="title-main">Recipes</span>
+            <span class="title-sub">cheap</span>
+        </h1>
+
+        <section class="recipe-grid" id="recipe-grid" aria-live="polite">
+            <p class="status">Henter opskrifter …</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-col">
+            <h2>om os</h2>
+            <p>vi laver mad opskrifter og måltidskasser som passer til din hverdag og dinne krav. her finder du alt fra
+                billige løsninger til hurtige mad projekter, som sørger for du har mad på bordet hver dag.</p>
+        </div>
+        <div class="footer-col">
+            <h2>kontakt os</h2>
+            <p>mail: <a href="mailto:Easykitchen@outlook.dk">Easykitchen@outlook.dk</a></p>
+            <p>telefon: <a href="tel:+4567687645">+45 67687645</a></p>
+            <p>cvr: <strong>10126759</strong></p>
+        </div>
+    </footer>
+
+    <script src="opskriftliste.js"></script>
+    <script src="menu.js"></script>
+</body>
+
+</html>
